@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stream.io</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <header>
+        <a href="" class="logo"><img src="images/Untitled-1-removebg.png" alt=""></a>
+        <ul class="nav" id="nav-bar">
+            <li>
+                <label for="" onclick="slidebarDeactive()"><i class="fa-solid fa-xmark"></i></label>
+            </li>
+            <li>
+                <a href=""><i class="fa fa-home" aria-hidden="true"></i></a>
+            </li>
+            <li><a href="">Adults</a></li>
+            <li><a href="">Kids</a></li>
+            <li><a href="">Anime</a></li>
+            <li><a href="">My List</a></li>
+            
+        </ul>
+        <div class="menu-ico">
+            <label for="sidebar-active" onclick="sliderButton()"><i class="fa-solid fa-bars"></i></label>
+            
+        </div>
+        
+        <div class="search-bar">
+            <input type="text" placeholder="search...">
+            <i class="fa fa-search"></i>
+        </div>
+        <div class="for-mobile">
+            <label for="" onclick="searchBarToggleDown()" class="search-ico"><i class="fa fa-search"></i></label>
+        </div>
+        
+    </header>
+    <div class="banner" id="background">
+        <div class="info-container">
+            <div class="display-form">
+                <div class="display-poster">
+                    <img src="images/Dune-part-2-poster.jpg" alt="">
+                </div>
+                <div class="title-bar">
+                    <h2 id="title-h4">Dune Part-2 DUAL audio hevc,Hindi,English</h2><br>
+                    <p id="description-E">Dune Part One (2021) Dune (2021) Paul Atreides, a brilliant and gifted young man born into a great destiny beyond his understanding, must travel to the most dangerous planet in the universe to ensure the future of his family and his people. As malevolent forces explode into conflict over the planet’s exclusive supply of the most precious resource in existence-a commodity capable of unlocking humanity’s greatest potential-only those who can conquer their fear will survive. 
+                    </p>
+                    <h4 id="release-E">MAY 14,2020 | USA</h4>
+                    <div class="links">
+                        <a href="">Fantasy</a>
+                        <a href="">War</a>
+                        <a href="">Si-Fi</a>
+                    </div>
+                    <div class="additional-buttons">
+                        <button>INFO</button>
+                        <button>Where to watch</button>
+                        <button>CAST</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="display-links">
+                <table>
+                    <tr>
+                        <th>Link</th>
+                        <th>Res</th>
+                        <th>Format</th>
+                    </tr>
+    
+                    <tr>
+                        <td><a href="">DOWNLOAD</a></td>
+                        <td><a href="">720p</a></td>
+                        <td><a href="">Mkv</a></td>
+                    </tr>
+                </table>
+            </div> 
+            
+        </div>
+        
+    </div>
+
+    <div class="search-function" id="search-function">
+        <div class="search-bar flex">
+            <input type="text" placeholder="search...">
+            <label for="" onclick="searchBarToggleUp()"><i class="fa-solid fa-xmark"></i></label>
+        </div>
+        
+        
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

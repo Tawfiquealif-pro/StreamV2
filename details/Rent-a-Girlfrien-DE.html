@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stream.io</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <header>
+        <a href="" class="logo"><img src="images/Untitled-1-removebg.png" alt=""></a>
+        <ul class="nav" id="nav-bar">
+            <li>
+                <label for="" onclick="slidebarDeactive()"><i class="fa-solid fa-xmark"></i></label>
+            </li>
+            <li>
+                <a href=""><i class="fa fa-home" aria-hidden="true"></i></a>
+            </li>
+            <li><a href="">Adults</a></li>
+            <li><a href="">Kids</a></li>
+            <li><a href="">Anime</a></li>
+            <li><a href="">My List</a></li>
+            
+        </ul>
+        <div class="menu-ico">
+            <label for="sidebar-active" onclick="sliderButton()"><i class="fa-solid fa-bars"></i></label>
+            
+        </div>
+        
+        <div class="search-bar">
+            <input type="text" placeholder="search...">
+            <i class="fa fa-search"></i>
+        </div>
+        <div class="for-mobile">
+            <label for="" onclick="searctyhBarToggleDown()" class="search-ico"><i class="fa fa-search"></i></label>
+        </div>
+        
+    </header>
+    <div class="banner" id="background" style="background : url(images/bg/bg-Rent-a-Girlfriend.jpg);background-size: cover;background-position: center;"> 
+        <div class="info-container">
+            <div class="display-form">
+                <div class="display-poster">
+                    <img src="images/Rent-a-Girlfriend-poster.jpg" alt="">
+                </div>
+                <div class="title-bar">
+                    <h2 id="title-h4">Rent a girlfriend, multi-audio. Hindi,English,Japanese </h2><br>
+                    <p id="description-E">
+                        Rent a Girlfriend : After being dumped by his girlfriend, a college student enlists a dating service to “rent” a girlfriend who, unbeknownst to him, happens to be both a fellow student and his neighbor."
+                    </p>
+                    <h4 id="release-E">Jan. 30,2020 JAPAN</h4>
+                    <div class="links">
+                        <a href="">Drama</a>
+                        <a href="">Love</a>
+                        <a href="">Anime</a>
+                        
+                    </div>
+                    <div class="additional-buttons">
+                        <button>INFO</button>
+                        <button>Where to watch</button>
+                        <button>CAST</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="display-links">
+                <table>
+                    <tr>
+                        <th>Link</th>
+                        <th>Res</th>
+                        <th>Format</th>
+                    </tr>
+    
+                    <tr>
+                        <td><a href="https://mega.nz/folder/8iNjGBYJ#jXXlYwFUlwZSb3ALKS1UeQ">DOWNLOAD</a></td>
+                        <td><a href="">720p</a></td>
+                        <td><a href="">Mkv</a></td>
+                    </tr>
+                </table>
+            </div> 
+        </div> 
+    </div>
+
+    <div class="search-function" id="search-function">
+        <div class="search-bar flex">
+            <input type="text" placeholder="search...">
+            <label for="" onclick="searchBarToggleUp()"><i class="fa-solid fa-xmark"></i></label>
+        </div>
+        
+        
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
